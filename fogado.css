@@ -33,6 +33,10 @@ body{
 	width: 100%;
 }
 
+.belso{
+    padding-left: 15px;
+}
+
 .icon
 {
     height: 150px;
@@ -40,11 +44,22 @@ body{
     margin: 0 auto;
 }
 
-#narancs_ragyogas
+li{
+    list-style-type: decimal;
+}
+
+.narancs_ragyogas
 {
 -webkit-filter: drop-shadow(0px 0px 15px orange);
 filter: drop-shadow(0px 0px 15px orange);
 }
+
+#zold_ragyogas 
+{
+-webkit-filter: drop-shadow(0px 0px 15px green);
+filter: drop-shadow(0px 0px 15px green);
+}
+
 
 
 .kozepre
@@ -52,3 +67,6 @@ filter: drop-shadow(0px 0px 15px orange);
     text-align: center;
 }
 
+.bold{
+    font-weight: bold;
+}
